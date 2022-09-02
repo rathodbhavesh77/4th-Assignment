@@ -1,0 +1,57 @@
+.form {
+  background-color: rgb(22, 167, 224);
+  background-size: 100%;
+}
+#logo {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.box {
+  background-color: white;
+  background-size: cover;
+  color: black;
+  margin-left: 800px;
+  margin-right: 50px;
+  font-size: 30px;
+  display: block;
+}
+h1 {
+  color: blue;
+  position: relative;
+  left: 5%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"] {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  display: block;
+  border-style: solid;
+  border-color: blue;
+}
+textarea {
+  position: relative;
+  width: 90%;
+  height: 15vh;
+  display: flex;
+  border-style: solid;
+  border-color: blue;
+}
+label {
+  color: black;
+  position: relative;
+  left: 5%;
+}
+.button {
+  background-color: blue;
+  position: relative;
+  width: 90%;
+  display: block;
+  border-style: solid;
+  border-color: blue;
+  font-size: large;
+  color: white;
+}
